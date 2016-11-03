@@ -42,7 +42,7 @@ If you modify the environment variable, the message the app shows when you curl 
 Run the following command to change the **NAME** variable, and then redeploy the `web` service.
 
 ```bash
-$ docker-cloud service set --env NAME="Friendly Users" --redeploy web
+$ docker-cloud service env update --env NAME="Friendly Users" --redeploy web
 ```
 
 ## Check endpoint status
